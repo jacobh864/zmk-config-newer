@@ -10,10 +10,12 @@
 #   - board: bdn9_rev2
 #   - board: nice_nano_v2
 #     shield: reviung41
-#
+# comment out line 21-22 to cancel reset 
 ---
 include:
   - board: nice_nano_v2
     shield: corne_left
   - board: nice_nano_v2
     shield: corne_right
+  - board: nice_nano_v2
+    shield: settings_reset
